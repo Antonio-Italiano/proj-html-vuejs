@@ -3,13 +3,18 @@ import BaseButton from '../generics/BaseButton.vue';
 export default {
     name: 'ContentJumbotron',
     data() { return {} },
-    components: { BaseButton }
+    components: { BaseButton },
+    methods: {
+        asClicked() {
+            console.log('bottone cliccato')
+        }
+    }
 
 }
 </script>
 
 <template>
-    <div class="row">
+    <div class="row m-0">
         <!-- BACKGROUND  -->
         <div id="background" class="col-5 h-100 px-5 d-flex align-items-end">
             <img class="" src="../../../assets/img/game-controler-2.png" alt="Game Controler">

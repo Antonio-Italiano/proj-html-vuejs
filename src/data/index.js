@@ -31,5 +31,23 @@ const navElement = [
         current: false,
     },
 ]
+const platfromElement = [
+    {
+        title: 'Live Streaming',
+        url: 'features-icon-1',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti voluptates.',
+    },
+    {
+        title: 'Great Tournament',
+        url: 'features-icon-2',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti voluptates.',
+    },
+    {
+        title: 'Gaming News',
+        url: 'features-icon-3',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti voluptates.',
+    },
 
-export { dataIndex, navElement };
+]
+
+export { dataIndex, navElement, platfromElement };
