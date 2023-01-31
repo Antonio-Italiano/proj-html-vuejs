@@ -8,12 +8,17 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid">
-        <app-header></app-header>
-    </div>
+    <section id="jumbotron">
+        <div class="container-custom">
+            <app-header></app-header>
+        </div>
+    </section>
 
 </template>
 
 <style lang="scss">
-
+#jumbotron {
+    min-height: 90vh;
+    background-image: url(../assets/img/index-banner-bg.png);
+}
 </style>

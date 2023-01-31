@@ -13,8 +13,9 @@ export default {
 </template>
 
 <style lang="scss">
-.container-fluid {
+.container-custom {
   width: 1200px;
-  // margin: 0 auto;
+  margin: 0 auto;
+  border: 1px dashed red;
 }
 </style>
