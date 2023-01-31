@@ -1,9 +1,10 @@
 <script>
 import AppLogo from './AppLogo.vue';
+import NavBar from './NavBar.vue';
 export default {
     name: 'AppHeader',
     data() { return {} },
-    components: { AppLogo },
+    components: { AppLogo, NavBar },
 }
 </script>
 
@@ -14,7 +15,7 @@ export default {
                 <app-logo></app-logo>
             </div>
             <div class="col-6">
-
+                <nav-bar></nav-bar>
             </div>
             <div class="col-3"></div>
         </div>
