@@ -1,12 +1,16 @@
 <script>
+import AppHeader from './production/AppHeader.vue';
 export default {
     name: 'SectionJumbotron',
-    data() { return },
+    data() { return {} },
+    components: { AppHeader }
 }
 </script>
 
 <template>
-    <div class="container-fluid"></div>
+    <div class="container-fluid">
+        <app-header></app-header>
+    </div>
 
 </template>
 

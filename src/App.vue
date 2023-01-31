@@ -2,7 +2,7 @@
 import SectionJumbotron from './components/SectionJumbotron.vue';
 export default {
   name: 'EsportGames',
-  data() { return },
+  data() { return {} },
   components: { SectionJumbotron }
 }
 </script>
