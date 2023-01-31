@@ -23,7 +23,7 @@ export default {
             <div class="col-6">
                 <nav-bar></nav-bar>
             </div>
-            <div class="col-3 d-flex align-items-center">
+            <div class="col-3 d-flex align-items-center justify-content-end">
                 <span class="me-4">
                     <font-awesome-icon icon="fa-solid fa-cart-shopping " class="text-white" />
                     <div class="index">{{ this.indexCart }}</div>
@@ -35,7 +35,7 @@ export default {
     </header>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 header {
     padding: 10px;
 

@@ -17,8 +17,9 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss"  scoped>
 .border-custom {
+    width: fit-content;
     border: 1px solid #08CB7B;
     padding: 9px 0;
     border-radius: 25px;
@@ -33,6 +34,8 @@ button {
         padding: 8px 15px;
         border-radius: 20px;
         margin: -3px;
+        color: black;
+        text-decoration: none;
         background-color: #08CB7B;
     }
 }

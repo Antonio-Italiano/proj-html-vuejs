@@ -11,6 +11,6 @@ export default {
     </figure>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>

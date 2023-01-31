@@ -23,7 +23,7 @@ export default {
     </ul>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 li {
     list-style-type: none;
 
