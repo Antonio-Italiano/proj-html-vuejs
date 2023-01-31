@@ -3,7 +3,7 @@ import AppLogo from './AppLogo.vue';
 import NavBar from './NavBar.vue';
 export default {
     name: 'AppHeader',
-    data() { return {} },
+    data() { return { indexCart: '03', } },
     components: { AppLogo, NavBar },
 }
 </script>
@@ -17,11 +17,32 @@ export default {
             <div class="col-6">
                 <nav-bar></nav-bar>
             </div>
-            <div class="col-3"></div>
+            <div class="col-3 d-flex align-items-center">
+                <span>
+                    <font-awesome-icon icon="fa-solid fa-cart-shopping " class="text-white" />
+                    <div class="index">{{ this.indexCart }}</div>
+                </span>
+
+            </div>
         </div>
     </header>
 </template>
 
 <style lang="scss">
+span {
+    position: relative;
+}
 
+.index {
+    height: 14px;
+    width: 14px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    background-color: #08CB7B;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
 </style>
