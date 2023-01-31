@@ -1,0 +1,3 @@
+const dataIndex = {}
+
+export { dataIndex };

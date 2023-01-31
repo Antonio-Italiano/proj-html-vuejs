@@ -6,9 +6,8 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="container-fluid"></div>
 
-    </div>
 </template>
 
 <style lang="scss">
