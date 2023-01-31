@@ -1,10 +1,16 @@
 <script>
 import AppLogo from './AppLogo.vue';
 import NavBar from './NavBar.vue';
+import BaseButton from './generics/BaseButton.vue';
 export default {
     name: 'AppHeader',
     data() { return { indexCart: '03', } },
-    components: { AppLogo, NavBar },
+    components: { AppLogo, NavBar, BaseButton },
+    methods: {
+        asClicked() {
+            console.log('bottone cliccato')
+        }
+    }
 }
 </script>
 
@@ -18,10 +24,11 @@ export default {
                 <nav-bar></nav-bar>
             </div>
             <div class="col-3 d-flex align-items-center">
-                <span>
+                <span class="me-4">
                     <font-awesome-icon icon="fa-solid fa-cart-shopping " class="text-white" />
                     <div class="index">{{ this.indexCart }}</div>
                 </span>
+                <base-button @button-clicked="asClicked" placeholder="LIVE STREAMING" href="#"></base-button>
 
             </div>
         </div>
@@ -29,20 +36,24 @@ export default {
 </template>
 
 <style lang="scss">
-span {
-    position: relative;
-}
+header {
+    padding: 10px;
 
-.index {
-    height: 14px;
-    width: 14px;
-    border-radius: 50px;
-    position: absolute;
-    top: 0px;
-    left: 8px;
-    background-color: #08CB7B;
-    font-size: 10px;
-    font-weight: 700;
-    text-align: center;
+    span {
+        position: relative;
+    }
+
+    .index {
+        height: 14px;
+        width: 14px;
+        border-radius: 50px;
+        position: absolute;
+        top: 0px;
+        left: 8px;
+        background-color: #08CB7B;
+        font-size: 10px;
+        font-weight: 700;
+        text-align: center;
+    }
 }
 </style>
