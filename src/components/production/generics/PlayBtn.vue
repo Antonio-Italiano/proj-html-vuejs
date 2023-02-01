@@ -13,7 +13,7 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .border-customs {
     width: fit-content;
     padding: 5px 0;

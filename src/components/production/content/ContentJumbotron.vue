@@ -1,9 +1,10 @@
 <script>
 import BaseButton from '../generics/BaseButton.vue';
+import PlayBtn from '../generics/PlayBtn.vue';
 export default {
     name: 'ContentJumbotron',
     data() { return {} },
-    components: { BaseButton },
+    components: { BaseButton, PlayBtn },
     methods: {
         asClicked() {
             console.log('bottone cliccato')
@@ -27,11 +28,7 @@ export default {
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                 <div class="d-flex align-items-center">
                     <base-button @button-clicked="asClicked" placeholder="EXPLORE GAMES >>" href="#"></base-button>
-                    <div class="border-customs ms-4">
-                        <a href="#" class=" btn-play d-flex align-items-center justify-content-center">
-                            <img src="../../../assets/icon/play-icon.png" alt="play">
-                        </a>
-                    </div>
+                    <play-btn></play-btn>
                 </div>
             </div>
         </div>
@@ -50,21 +47,6 @@ export default {
         position: absolute;
         bottom: 25px;
         left: 120px;
-
-        .border-customs {
-            width: fit-content;
-            padding: 5px 0;
-            border-radius: 50%;
-            border: 1px solid #08CB7B;
-
-            .btn-play {
-                height: 40px;
-                width: 40px;
-                margin: 2px 7px;
-                border-radius: 50%;
-                background-color: #fff;
-            }
-        }
 
         h1 {
             font-size: 70px;
