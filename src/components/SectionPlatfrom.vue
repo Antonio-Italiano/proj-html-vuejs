@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 #platfrom {
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: black;
 
     .row {

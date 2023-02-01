@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 #jumbotron {
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url(../assets/img/index-banner-bg.png);
 }
 </style>

@@ -79,5 +79,27 @@ const cardBattleData = [
         date: 'December 25,2022 4:00 PM',
     },
 ]
+const countData = [
+    {
+        id: '1',
+        number: '1135',
+        text: 'Twitch Streams',
+    },
+    {
+        id: '2',
+        number: '44',
+        text: 'Total Games',
+    },
+    {
+        id: '3',
+        number: '982',
+        text: 'Youtube Streams',
+    },
+    {
+        id: '4',
+        number: '40',
+        text: 'Pro Team',
+    },
+]
 
-export { dataIndex, navElement, platfromElement, cardBattleData };
+export { dataIndex, navElement, platfromElement, cardBattleData, countData };
