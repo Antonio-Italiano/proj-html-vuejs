@@ -101,5 +101,59 @@ const countData = [
         text: 'Pro Team',
     },
 ]
+const cardFeedbackData = [
+    {
+        id: 1,
+        vote: 3,
+        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus incidunt, quo',
+        user: {
+            name: 'kim Ramos',
+            url: 'testimonials-image-1',
+            country: 'Serbia',
+        },
+    },
+    {
+        id: 2,
+        vote: 4,
+        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus incidunt, quo',
+        user: {
+            name: 'kim Ramos',
+            url: 'testimonials-image-2',
+            country: 'Serbia',
+        },
+    },
+    {
+        id: 3,
+        vote: 5,
+        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus incidunt, quo',
+        user: {
+            name: 'kim Ramos',
+            url: 'testimonials-image-3',
+            country: 'Serbia',
+        },
+    },
+    {
+        id: 4,
+        vote: 2,
+        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus incidunt, quo',
+        user: {
+            name: 'kim Ramos',
+            url: 'testimonials-image-3',
+            country: 'Serbia',
+        },
+    },
+    {
+        id: 5,
+        vote: 5,
+        text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus incidunt, quo',
+        user: {
+            name: 'kim Ramos',
+            url: 'testimonials-image-3',
+            country: 'Serbia',
+        },
+    },
 
-export { dataIndex, navElement, platfromElement, cardBattleData, countData };
+
+]
+
+export { dataIndex, navElement, platfromElement, cardBattleData, countData, cardFeedbackData };
