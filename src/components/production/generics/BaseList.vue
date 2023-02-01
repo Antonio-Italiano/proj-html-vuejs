@@ -29,7 +29,7 @@ export default {
     </ul>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .icon {
     height: 60px;
     width: 60px;
