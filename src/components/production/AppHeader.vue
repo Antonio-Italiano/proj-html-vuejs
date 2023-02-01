@@ -1,6 +1,6 @@
 <script>
 import AppLogo from './AppLogo.vue';
-import NavBar from './NavBar.vue';
+import NavBar from './generics/BaseNavBar.vue';
 import BaseButton from './generics/BaseButton.vue';
 export default {
     name: 'AppHeader',

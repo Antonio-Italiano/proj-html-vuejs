@@ -1,5 +1,5 @@
 <script>
-import { navElement } from '../../data'
+import { navElement } from '../../../data'
 export default {
     name: 'NavBar',
     data() { return { currentIndex: 0, navElement } },

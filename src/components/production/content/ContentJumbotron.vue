@@ -20,7 +20,7 @@ export default {
             <img class="" src="../../../assets/img/game-controler-2.png" alt="Game Controler">
         </div>
         <!-- CONTENT UP -->
-        <div id="content-up" class="col-5 h-100 px-5 d-flex align-items-center justify-content-end text-white">
+        <div id="content-up" class="col-5 h-100 px-5 ms-5 d-flex align-items-center justify-content-start text-white">
             <div class="w-75">
                 <h4>Game With Live Stearming</h4>
                 <h1 class="">Future Of Esports</h1>
@@ -49,7 +49,7 @@ export default {
     #content-up {
         position: absolute;
         bottom: 25px;
-        left: 70px;
+        left: 120px;
 
         .border-customs {
             width: fit-content;

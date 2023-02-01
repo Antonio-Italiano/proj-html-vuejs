@@ -49,5 +49,35 @@ const platfromElement = [
     },
 
 ]
+const cardBattleData = [
+    {
+        id: '1',
+        gamer1Img: 'game-img-1',
+        gamer2Img: 'game-img-2',
+        game: 'Call Of Deauty',
+        date: 'December 25,2022 4:00 PM',
+    },
+    {
+        id: '2',
+        gamer1Img: 'game-img-3',
+        gamer2Img: 'game-img-4',
+        game: 'Legandary Battles',
+        date: 'December 25,2022 4:00 PM',
+    },
+    {
+        id: '3',
+        gamer1Img: 'game-img-5',
+        gamer2Img: 'game-img-6',
+        game: 'Nay Corral Gundown',
+        date: 'December 25,2022 4:00 PM',
+    },
+    {
+        id: '4',
+        gamer1Img: 'game-img-7',
+        gamer2Img: 'game-img-8',
+        game: 'League Of Legends',
+        date: 'December 25,2022 4:00 PM',
+    },
+]
 
-export { dataIndex, navElement, platfromElement };
+export { dataIndex, navElement, platfromElement, cardBattleData };

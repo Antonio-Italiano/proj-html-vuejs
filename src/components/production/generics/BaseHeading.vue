@@ -2,9 +2,9 @@
 export default {
     name: 'BaseHeading',
     props: {
-        informative: Array,
-        title: Array,
-        text: Array
+        informative: String,
+        title: String,
+        text: String
     }
 }
 </script>
@@ -20,7 +20,12 @@ h4 {
     color: #94CB53;
 }
 
+h1 {
+    color: #fff;
+}
+
 p {
     font-size: 12px;
+    color: #fff;
 }
 </style>
