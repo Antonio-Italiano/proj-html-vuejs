@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <section id="live-streaming" class="p-1">
+    <section id="live-streaming" class="py-5">
         <content-live-streaming></content-live-streaming>
     </section>
 </template>
