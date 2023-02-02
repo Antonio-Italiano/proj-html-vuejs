@@ -51,7 +51,7 @@ export default {
 
         p {
             font-size: 13px;
-            color: #94CB53;
+            color: #FFAA5A;
         }
 
         img {

@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss" scoped>
 h4 {
-    color: #94CB53;
+    color: #FFAA5A;
 }
 
 h1 {

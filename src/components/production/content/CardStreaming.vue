@@ -38,7 +38,7 @@ export default {
     left: 40px;
 
     .number {
-        color: #94CB53;
+        color: #FFAA5A;
     }
 }
 

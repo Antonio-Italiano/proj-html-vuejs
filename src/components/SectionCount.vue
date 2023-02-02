@@ -2,6 +2,7 @@
 import ContentCount from './production/content/ContentCount.vue';
 import { countData } from '../data';
 export default {
+    name: 'SectionCount',
     data() { return { countData } },
     components: { ContentCount },
 }

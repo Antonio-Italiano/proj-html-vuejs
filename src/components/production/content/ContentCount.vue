@@ -20,7 +20,7 @@ export default {
     border-radius: 45px;
 
     p {
-        color: #94CB53;
+        color: #FFAA5A;
     }
 }
 </style>

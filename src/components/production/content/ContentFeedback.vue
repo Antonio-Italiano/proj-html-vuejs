@@ -29,22 +29,6 @@ export default {
 
 ::-webkit-scrollbar {
     height: 0px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: rgb(64, 64, 64);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-block: 3px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: rgb(173, 170, 170);
-    border-radius: 100vw;
-    margin-block: 1px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(138, 138, 138);
+    width: 0px;
 }
 </style>

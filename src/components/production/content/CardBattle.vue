@@ -66,7 +66,7 @@ export default {
         background-color: #30415F;
 
         p {
-            color: #94CB53;
+            color: #FFAA5A;
         }
     }
 

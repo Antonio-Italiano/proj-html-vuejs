@@ -1,5 +1,5 @@
 <script>
-import AppHeader from './production/AppHeader.vue';
+import AppHeader from './production/content/AppHeader.vue';
 import ContentJumbotron from './production/content/ContentJumbotron.vue';
 export default {
     name: 'SectionJumbotron',
