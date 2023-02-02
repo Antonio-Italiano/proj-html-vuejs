@@ -29,7 +29,6 @@ export default {
                     <div class="index">{{ this.indexCart }}</div>
                 </span>
                 <base-button @button-clicked="asClicked" placeholder="LIVE STREAMING" href="#"></base-button>
-
             </div>
         </div>
     </header>
@@ -38,9 +37,8 @@ export default {
 <style lang="scss" scoped>
 header {
     padding: 10px;
-    position: relative;
+    position: sticky;
     z-index: 1;
-
 
     span {
         position: relative;

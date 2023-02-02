@@ -53,7 +53,7 @@ export default {
         }
 
         h4 {
-            color: #94CB53;
+            color: #FFAA5A;
         }
     }
 

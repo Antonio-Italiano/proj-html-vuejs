@@ -19,13 +19,17 @@ export default {
 
 <template>
   <section-jumbotron></section-jumbotron>
-  <section-platfrom></section-platfrom>
-  <section-trandig></section-trandig>
-  <section-count></section-count>
-  <section-live-streaming></section-live-streaming>
-  <section-feedback></section-feedback>
-  <section-latest-news></section-latest-news>
-  <section-footer></section-footer>
+  <main>
+    <section-platfrom></section-platfrom>
+    <section-trandig></section-trandig>
+    <section-count></section-count>
+    <section-live-streaming></section-live-streaming>
+    <section-feedback></section-feedback>
+    <section-latest-news></section-latest-news>
+  </main>
+  <footer>
+    <section-footer></section-footer>
+  </footer>
 
 </template>
 
@@ -42,9 +46,6 @@ export default {
 
 ::-webkit-scrollbar-track {
   background-color: rgb(64, 64, 64);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-block: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
