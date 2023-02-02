@@ -205,5 +205,40 @@ const cardNewsData = [
         text: 'The Rise Of Fantasy Sports And Online Games',
     },
 ]
+const links = {
 
-export { dataIndex, navElement, platfromElement, cardBattleData, countData, cardFeedbackData, cardNewsData };
+    games: 'Games',
+    latest: 'Latest Tournament',
+    shop: 'Shop',
+    blog: 'Blog',
+    contact: 'Contact',
+}
+const help = {
+
+    faqs: 'Faqs',
+    terms: 'Terms',
+    privacy: 'Privacy',
+}
+const follow = {
+
+    facebook: 'Facebook',
+    twitter: 'Twitter',
+    instagram: 'Instagram',
+    youtube: 'Youtube',
+    ghitub: 'Ghitub',
+}
+const location = {
+
+    address: '4 Mayfield, Buckden,',
+    code: 'PE19 5SZ',
+}
+const phone = {
+    number: '(302)555-0107',
+}
+
+
+export {
+    dataIndex, navElement, platfromElement,
+    cardBattleData, countData, cardFeedbackData,
+    cardNewsData, links, help, follow, location, phone
+};
