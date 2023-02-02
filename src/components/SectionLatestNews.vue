@@ -14,7 +14,7 @@ export default {
 
 <style lang="scss" scoped>
 #section-latest-news {
-    height: 100vh;
+    height: 120vh;
     background-color: black;
 }
 </style>
