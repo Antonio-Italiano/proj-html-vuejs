@@ -10,8 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube, faTwitch, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faStar, farStar, faMagnifyingGlass, faCartShopping);
+library.add(faStar, farStar, faMagnifyingGlass, faCartShopping, faYoutube, faTwitch, faFacebookF, faInstagram);
 
 const app = createApp(App)
 // GLOBAL COMPONENTS 

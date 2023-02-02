@@ -6,12 +6,13 @@ import SectionCount from './components/SectionCount.vue';
 import SectionLiveStreaming from './components/SectionLiveStreaming.vue';
 import SectionFeedback from './components/SectionFeedback.vue';
 import SectionLatestNews from './components/SectionLatestNews.vue';
+import SectionFooter from './components/SectionFooter.vue';
 export default {
   name: 'EsportGames',
   data() { return {} },
   components: {
-    SectionJumbotron, SectionPlatfrom, SectionTrandig, SectionCount,
-    SectionLiveStreaming, SectionFeedback, SectionLatestNews
+    SectionJumbotron, SectionPlatfrom, SectionTrandig, SectionCount, SectionLiveStreaming,
+    SectionFeedback, SectionLatestNews, SectionFooter
   }
 }
 </script>
@@ -24,6 +25,7 @@ export default {
   <section-live-streaming></section-live-streaming>
   <section-feedback></section-feedback>
   <section-latest-news></section-latest-news>
+  <section-footer></section-footer>
 
 </template>
 
