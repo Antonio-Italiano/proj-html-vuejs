@@ -155,5 +155,55 @@ const cardFeedbackData = [
 
 
 ]
+const cardNewsData = [
+    {
+        id: 1,
+        img: 'blog-item-1',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'Top 5 Most Important Aspects Of Your Game',
+    },
+    {
+        id: 2,
+        img: 'blog-item-2',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'The Rise Of Fantasy Sports And Online Games',
+    },
+    {
+        id: 3,
+        img: 'blog-item-3',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'Benefits Of Gaming-PC And Video Games',
+    },
+    {
+        id: 4,
+        img: 'blog-item-4',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'The Rise Of Fantasy Sports And Online Games',
+    },
+    {
+        id: 5,
+        img: 'blog-item-5',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'Top 5 Most Important Aspects Of Your Game',
+    },
+    {
+        id: 6,
+        img: 'blog-item-6',
+        time: '10 min',
+        visual: '240',
+        date: 'Apr 11,2022',
+        text: 'The Rise Of Fantasy Sports And Online Games',
+    },
+]
 
-export { dataIndex, navElement, platfromElement, cardBattleData, countData, cardFeedbackData };
+export { dataIndex, navElement, platfromElement, cardBattleData, countData, cardFeedbackData, cardNewsData };
