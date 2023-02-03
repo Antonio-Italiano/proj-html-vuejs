@@ -55,6 +55,11 @@ export default {
         h4 {
             color: #FFAA5A;
         }
+
+        p {
+            color: grey;
+            font-size: 18px;
+        }
     }
 
     #background {

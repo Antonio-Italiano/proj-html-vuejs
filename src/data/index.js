@@ -8,7 +8,7 @@ const navElement = [
     {
         text: 'Games',
         url: '#',
-        current: false,
+        current: true,
     },
     {
         text: 'Shop',

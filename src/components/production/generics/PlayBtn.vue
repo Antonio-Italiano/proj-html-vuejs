@@ -18,7 +18,11 @@ export default {
     width: fit-content;
     padding: 5px 0;
     border-radius: 50%;
-    border: 1px solid #08CB7B;
+    border: 1px solid transparent;
+
+    &.border-customs:hover {
+        border-color: #08CB7B;
+    }
 
     .btn-play {
         height: 40px;

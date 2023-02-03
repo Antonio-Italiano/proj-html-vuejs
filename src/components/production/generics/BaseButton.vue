@@ -20,10 +20,13 @@ export default {
 <style lang="scss"  scoped>
 .border-custom {
     width: fit-content;
-    border: 1px solid #08CB7B;
-    padding: 9px 0;
+    padding: 10px 0;
     border-radius: 25px;
-    border: 1px solid #08CB7B;
+    border: 1px solid transparent;
+
+    &.border-custom:hover {
+        border-color: #08CB7B;
+    }
 }
 
 button {
@@ -31,7 +34,7 @@ button {
     border: none;
 
     a {
-        padding: 8px 15px;
+        padding: 10px 15px;
         border-radius: 20px;
         margin: -3px;
         color: black;

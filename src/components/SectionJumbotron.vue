@@ -11,7 +11,7 @@ export default {
 <template>
     <section id="jumbotron">
         <div class="container-custom">
-            <app-header></app-header>
+            <!-- <app-header></app-header> -->
         </div>
         <content-jumbotron></content-jumbotron>
     </section>
@@ -20,6 +20,8 @@ export default {
 
 <style lang="scss" scoped>
 #jumbotron {
+    margin-top: -75px;
+    padding-top: 150px;
     min-height: 100vh;
     background-image: url(../assets/img/index-banner-bg.png);
 }

@@ -9,7 +9,6 @@ export const store = reactive({
         visual: '240',
         date: 'Apr 11,2022',
         text: 'Top 5 Most Important Aspects Of Your Game',
-
     }
 
 })

@@ -1,4 +1,5 @@
 <script>
+import AppHeader from './components/production/content/AppHeader.vue';
 import SectionJumbotron from './components/SectionJumbotron.vue';
 import SectionPlatfrom from './components/SectionPlatfrom.vue';
 import SectionTrandig from './components/SectionTrandig.vue';
@@ -11,13 +12,14 @@ export default {
   name: 'EsportGames',
   data() { return {} },
   components: {
-    SectionJumbotron, SectionPlatfrom, SectionTrandig, SectionCount, SectionLiveStreaming,
-    SectionFeedback, SectionLatestNews, SectionFooter
+    AppHeader, SectionJumbotron, SectionPlatfrom, SectionTrandig, SectionCount,
+    SectionLiveStreaming, SectionFeedback, SectionLatestNews, SectionFooter
   }
 }
 </script>
 
 <template>
+  <app-header></app-header>
   <section-jumbotron></section-jumbotron>
   <main>
     <section-platfrom></section-platfrom>

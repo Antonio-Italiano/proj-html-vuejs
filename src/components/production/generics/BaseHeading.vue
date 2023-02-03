@@ -25,7 +25,7 @@ h1 {
 }
 
 p {
-    font-size: 12px;
-    color: #fff;
+    font-size: 14px;
+    color: grey;
 }
 </style>
